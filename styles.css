@@ -1,0 +1,113 @@
+body {
+    background-color: rgba(0,0,0,0.33);
+}
+
+header,
+nav,
+main,
+footer {
+    background-color: #46c053;
+}
+
+nav,
+main,
+footer {
+    margin-bottom: 10px;
+}
+
+header .outer {
+    display: flex;
+    justify-content: space-between;
+    height: 110px;
+}
+
+header .logo img {
+    height: 80px;
+    width: 80px;
+}
+
+header .logo {
+    padding-top: 15px;
+    padding-right: 5px;
+}
+
+header .name {
+    height: 110px;
+    width: calc(100% - 110px);
+}
+
+header .name h1 {
+    font-family: "Brush Script MT", cursive;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+nav ul {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    width: calc(100% / 5);
+    text-align: center;
+    margin: 5px 0 5px 0;
+}
+
+nav li .first {
+    margin-left: 5px;
+}
+
+nav li .last {
+    margin-right: 5px;
+}
+
+nav li a {
+    display: block;
+    padding: 10px;
+    background-color: #00e310;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+}
+
+nav a:hover {
+    background-color: #3bc07b;
+}
+
+main p,
+footer {
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main .outer {
+    display: flex;
+}
+
+main .fav-photos,
+main .greeting {
+    background-color: #00e310;
+    margin: 5px;
+    padding: 5px;
+}
+
+footer {
+    padding: 5px;
+}
+
+main .fav-photos img {
+    width: 100px;
+    height: 100px;
+}
